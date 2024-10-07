@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="21E2B80B-2C9C-A3F9-B32E-8DFFF500DD18" name="Empresas">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 00:43:05 UTC</createdTime>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<engineerTo>
+<item key="0680FFF2-F0BE-AE31-FAAC-FAC0FD220A76" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="RUT" id="2D57BB25-DBDE-A489-69C8-9BC13638E80E">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:11:49 UTC</createdTime>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<engineerTo>
+<item key="0680FFF2-F0BE-AE31-FAAC-FAC0FD220A76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Digito_Verificador" id="C7FB3817-19B7-924B-FB90-D4BFD83E9A5D">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:12:47 UTC</createdTime>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<engineerTo>
+<item key="0680FFF2-F0BE-AE31-FAAC-FAC0FD220A76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre_fantasia" id="06C251DD-3148-EFAC-D9FE-778C0E26A730">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:13:23 UTC</createdTime>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<engineerTo>
+<item key="0680FFF2-F0BE-AE31-FAAC-FAC0FD220A76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Razon_Social" id="3D048953-AE76-5665-44B2-564F0EC5D211">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:14:21 UTC</createdTime>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<engineerTo>
+<item key="0680FFF2-F0BE-AE31-FAAC-FAC0FD220A76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Direccion_comercial" id="4E944427-18AD-8756-BE85-ABB966894BC5">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:15:31 UTC</createdTime>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<engineerTo>
+<item key="0680FFF2-F0BE-AE31-FAAC-FAC0FD220A76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_Region" id="1BCB6359-B937-33D9-DFF9-91598DD89561">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:57:31 UTC</createdTime>
+<generatorID>161C3321-E46F-F834-1C96-E9EE4F575590</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<engineerTo>
+<item key="0680FFF2-F0BE-AE31-FAAC-FAC0FD220A76" value="true"/>
+</engineerTo>
+<referedAttribute>70A820F5-F234-7841-5B25-E9FF9ADF436A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_Cuidad" id="48D4EB0E-D8BC-E32B-512C-8B58396D394F">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:57:42 UTC</createdTime>
+<generatorID>C48AA82D-7246-CECC-6BC4-FF54ECD7B044</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<engineerTo>
+<item key="0680FFF2-F0BE-AE31-FAAC-FAC0FD220A76" value="true"/>
+</engineerTo>
+<referedAttribute>EDEB3BF5-2AAE-5DFB-4BD3-D6125DE668F9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_Comuna" id="C4134FD4-6555-2958-8A7E-9DE60EAD8715">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:57:49 UTC</createdTime>
+<generatorID>498E6F01-3083-2252-096E-6FC3F4F9B45D</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<engineerTo>
+<item key="0680FFF2-F0BE-AE31-FAAC-FAC0FD220A76" value="true"/>
+</engineerTo>
+<referedAttribute>E9669F96-08C0-C071-9521-CF3B42D172E1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Giro" id="3A5DF83A-4E28-BD9C-ECEF-B7E23D0D8D3A">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-06 01:49:28 UTC</createdTime>
+<generatorID>0CFA9BE3-4B83-025E-7469-551CBFCDCCCE</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<engineerTo>
+<item key="0680FFF2-F0BE-AE31-FAAC-FAC0FD220A76" value="true"/>
+</engineerTo>
+<referedAttribute>EA6CC47C-4BB8-5903-5B32-7D00DF9380FC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D56BA240-D1DB-E232-7FCF-E3A6D86C6B00" name="Empresas PK">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:29:37 UTC</createdTime>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="0680FFF2-F0BE-AE31-FAAC-FAC0FD220A76" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2D57BB25-DBDE-A489-69C8-9BC13638E80E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

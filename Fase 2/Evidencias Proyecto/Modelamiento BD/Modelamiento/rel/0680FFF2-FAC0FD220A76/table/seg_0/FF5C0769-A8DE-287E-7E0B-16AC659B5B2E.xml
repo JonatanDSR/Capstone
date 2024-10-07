@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FF5C0769-A8DE-287E-7E0B-16AC659B5B2E" name="Usuario_Empresa">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-06 02:00:16 UTC</createdTime>
+<generatorID>BAFAA4BF-2478-0FCE-3A5E-EA945EBC2A8A</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Usuarios_Correo_electronico" id="693652DC-A55B-CAC1-702C-6FA0D9EF31D4">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-06 02:00:16 UTC</createdTime>
+<generatorID>6D22D78A-CED1-DBEC-0006-0F67F1A50C52</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="30ECF4CB-5F50-5A77-03F5-B7354EBB575A" referredColumn="F682A0E5-B56E-01F2-B570-8F732E7CF661"/>
+</associations>
+</Column>
+<Column name="Empresas_RUT" id="CD0A0644-1F5D-80F5-8B72-50DDFC35BD4F">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-06 02:00:16 UTC</createdTime>
+<generatorID>AC8C5DE8-FF89-3C5B-52AB-CD76238264FE</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C1B470A6-F24E-2101-753A-C5A5B8DCF5B3" referredColumn="A519DCB0-21C8-FC38-3310-89758FC585C4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8FBEA269-FBEB-C9EA-D320-7ED02E6FF702" name="Usuario_Empresa__IDX">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-06 02:00:16 UTC</createdTime>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>2C8EFA69-2B7E-DB83-DAA7-46A81EC38AC6</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="693652DC-A55B-CAC1-702C-6FA0D9EF31D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A9D9925-6ACF-BBA4-1092-C5A1BCA1EF67" name="Usuario_Empresa_Usuarios_FK">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-06 02:00:16 UTC</createdTime>
+<generatorID>2C8EFA69-2B7E-DB83-DAA7-46A81EC38AC6</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="693652DC-A55B-CAC1-702C-6FA0D9EF31D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BBE32DDE-EEAA-B85E-AC2E-96DAFDA3BC66" name="Usuario_Empresa_Empresas_FK">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-06 02:00:16 UTC</createdTime>
+<generatorID>6DBB45BD-5B24-065A-EC70-8EC0C6DCE071</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD0A0644-1F5D-80F5-8B72-50DDFC35BD4F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

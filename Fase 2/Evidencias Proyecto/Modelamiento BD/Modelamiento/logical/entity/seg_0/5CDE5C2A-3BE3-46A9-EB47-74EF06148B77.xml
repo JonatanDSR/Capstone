@@ -1,0 +1,158 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5CDE5C2A-3BE3-46A9-EB47-74EF06148B77" name="Ordenes">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 00:43:24 UTC</createdTime>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<engineerTo>
+<item key="0680FFF2-F0BE-AE31-FAAC-FAC0FD220A76" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Num_orden" id="FF5526CB-A175-E295-4EEE-F8FDB4986A31">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:22:15 UTC</createdTime>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<engineerTo>
+<item key="0680FFF2-F0BE-AE31-FAAC-FAC0FD220A76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Detalle_Orden" id="7098D285-98BF-37A7-047A-035BCB3901D4">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:22:42 UTC</createdTime>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<engineerTo>
+<item key="0680FFF2-F0BE-AE31-FAAC-FAC0FD220A76" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Direccion_retiro" id="0A201F43-BB70-B922-A041-96A2FD85DCB2">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:23:38 UTC</createdTime>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<engineerTo>
+<item key="0680FFF2-F0BE-AE31-FAAC-FAC0FD220A76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Direccion_despacho" id="9388FE82-B693-1748-AE5A-C84705408B12">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:24:20 UTC</createdTime>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<engineerTo>
+<item key="0680FFF2-F0BE-AE31-FAAC-FAC0FD220A76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RUT" id="DD17774E-BCB9-6DE4-7C06-1D3BA017A984">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:30:27 UTC</createdTime>
+<generatorID>A47BFF0F-15EB-8F52-595B-56F1ABD531C5</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<engineerTo>
+<item key="0680FFF2-F0BE-AE31-FAAC-FAC0FD220A76" value="true"/>
+</engineerTo>
+<referedAttribute>2D57BB25-DBDE-A489-69C8-9BC13638E80E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cod_Estado" id="DD19B2C7-A89A-7ADB-3379-C9381133D109">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:36:59 UTC</createdTime>
+<generatorID>525A808C-1B9E-58B5-176A-640577EFF5C0</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<engineerTo>
+<item key="0680FFF2-F0BE-AE31-FAAC-FAC0FD220A76" value="true"/>
+</engineerTo>
+<referedAttribute>11BDBC80-288A-A52B-68AD-3ACBA47A1A75</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cod_Retiro" id="163F9B6A-828C-94CA-6BB4-4BB8410D773C">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:59:48 UTC</createdTime>
+<generatorID>B97DD6EB-1F3A-0549-2EE2-A6E1F8AF34F7</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<engineerTo>
+<item key="0680FFF2-F0BE-AE31-FAAC-FAC0FD220A76" value="true"/>
+</engineerTo>
+<referedAttribute>5569DAAB-BD12-283A-6EFE-244EEFAEAE86</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cod_Despacho" id="36848714-DE09-4E94-6718-81530166CD67">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 02:00:25 UTC</createdTime>
+<generatorID>952B3302-8AAA-06E0-19D3-6B00CF43D647</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<engineerTo>
+<item key="0680FFF2-F0BE-AE31-FAAC-FAC0FD220A76" value="true"/>
+</engineerTo>
+<referedAttribute>113E7A70-0A98-B373-5372-C05F21E9D4A5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Correo_electronico" id="75ADE412-7C38-2585-4C37-151BB333B8E3">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-06 01:58:59 UTC</createdTime>
+<generatorID>D045F1A4-65A9-F940-9298-36710CE42230</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<engineerTo>
+<item key="0680FFF2-F0BE-AE31-FAAC-FAC0FD220A76" value="true"/>
+</engineerTo>
+<referedAttribute>06EAD3FF-589A-59E4-0795-42AD7BE52D1C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="84CFBAA4-3626-48F7-6BAB-A4444331D3F7" name="Ordenes PK">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:29:33 UTC</createdTime>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="0680FFF2-F0BE-AE31-FAAC-FAC0FD220A76" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FF5526CB-A175-E295-4EEE-F8FDB4986A31</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

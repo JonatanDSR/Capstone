@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="229BA168-2046-ADE1-E64F-973883302761" name="Direccion_Retiro">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:38:35 UTC</createdTime>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<engineerTo>
+<item key="0680FFF2-F0BE-AE31-FAAC-FAC0FD220A76" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Cod_Retiro" id="5569DAAB-BD12-283A-6EFE-244EEFAEAE86">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:38:54 UTC</createdTime>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<engineerTo>
+<item key="0680FFF2-F0BE-AE31-FAAC-FAC0FD220A76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Direccion" id="311F6D9E-106F-7844-B614-FA1573E63761">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:39:25 UTC</createdTime>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<engineerTo>
+<item key="0680FFF2-F0BE-AE31-FAAC-FAC0FD220A76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_Region" id="BF7347DF-A887-434F-2A08-07E118C4B6E3">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:42:37 UTC</createdTime>
+<generatorID>E5F1CA7E-D126-6B09-6792-CF0B05D86F66</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<engineerTo>
+<item key="0680FFF2-F0BE-AE31-FAAC-FAC0FD220A76" value="true"/>
+</engineerTo>
+<referedAttribute>70A820F5-F234-7841-5B25-E9FF9ADF436A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_Cuidad" id="5185244B-7FE6-A136-9E19-D98BC39899FE">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:42:50 UTC</createdTime>
+<generatorID>0D913092-A388-218B-2399-665F90F2FD56</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<engineerTo>
+<item key="0680FFF2-F0BE-AE31-FAAC-FAC0FD220A76" value="true"/>
+</engineerTo>
+<referedAttribute>EDEB3BF5-2AAE-5DFB-4BD3-D6125DE668F9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_Comuna" id="0B38F308-0F06-7568-43A1-E62ED5F0573D">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:43:07 UTC</createdTime>
+<generatorID>D34EBCEF-548D-BA3F-2F97-DA51F9541558</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<engineerTo>
+<item key="0680FFF2-F0BE-AE31-FAAC-FAC0FD220A76" value="true"/>
+</engineerTo>
+<referedAttribute>E9669F96-08C0-C071-9521-CF3B42D172E1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FBE90C34-8988-D8D7-C1F0-7324DA4BF5DD" name="Direccion_Retiro PK">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:39:19 UTC</createdTime>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="0680FFF2-F0BE-AE31-FAAC-FAC0FD220A76" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5569DAAB-BD12-283A-6EFE-244EEFAEAE86</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

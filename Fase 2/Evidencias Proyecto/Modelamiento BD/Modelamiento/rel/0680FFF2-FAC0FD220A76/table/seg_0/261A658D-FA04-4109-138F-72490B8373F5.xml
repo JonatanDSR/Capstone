@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="261A658D-FA04-4109-138F-72490B8373F5" name="Detalle_ordenes">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:54:48 UTC</createdTime>
+<generatorID>7A20F432-5A9B-96D5-1500-CE5419CB6615</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Ordenes_Num_orden" id="0667BD76-7334-DEA0-9E4F-D9AA6AE5D00F">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:54:48 UTC</createdTime>
+<generatorID>06AF4E1A-DB72-5B75-C795-3F908058DDCC</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F229D183-6482-8AD5-ADCC-2FA26622C25F" referredColumn="6133F39F-9A6C-0CD8-65C5-0465C9191089"/>
+</associations>
+</Column>
+<Column name="ID_detalle" id="B683FA8B-15E8-36CA-1E9E-FC9314D99D11">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:54:48 UTC</createdTime>
+<generatorID>B79370CD-45BC-54EF-BFA8-0411718E3892</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Producto" id="B9868CEF-4C8F-DD2F-EE6B-B1C19AF3FA8B">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:54:48 UTC</createdTime>
+<generatorID>9E53BB5D-58D2-EAE5-9667-1969B866F91D</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cantidad" id="ED64B057-FCDB-744F-5A69-35B103633EBF">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:54:48 UTC</createdTime>
+<generatorID>7FA7A4BA-3C83-8DF3-DBDF-F6EF11646C42</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Alto" id="DCE18BEB-7491-C7AA-9273-5324D51D759C">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:54:48 UTC</createdTime>
+<generatorID>6647C9EB-2BC5-24AB-5981-89250792CCF0</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ancho" id="CBB607BB-55F7-378D-8EE6-45E1F26B08B2">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:54:48 UTC</createdTime>
+<generatorID>EB5CE2A3-BA57-DB49-D4B8-7037BABC562F</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Largo" id="E0E49A9F-2919-66AC-340D-6B16A1D3DB2C">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:54:48 UTC</createdTime>
+<generatorID>AD3E685D-F19E-0316-73D3-10BE5732EE11</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Peso_KGS" id="D836ABEF-F172-31F2-D799-C4B63E7CEBFD">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:54:48 UTC</createdTime>
+<generatorID>208EF6AA-4CC6-DAC3-A983-AB1B42FF870A</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8A1F3462-DEC2-1638-9B5C-312A93134FA5" name="Detalle_ordenes_PK">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:54:48 UTC</createdTime>
+<generatorID>00AED8C8-8635-068C-0D1C-60B167B6FAEA</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0667BD76-7334-DEA0-9E4F-D9AA6AE5D00F"/>
+<colUsage columnID="B683FA8B-15E8-36CA-1E9E-FC9314D99D11"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="738F5776-377F-7AF8-AA73-17E53B64DD39" name="Detalle_ordenes_Ordenes_FK">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:54:48 UTC</createdTime>
+<generatorID>BCF4BB64-FCD4-A747-2550-209B5E86D747</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0667BD76-7334-DEA0-9E4F-D9AA6AE5D00F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

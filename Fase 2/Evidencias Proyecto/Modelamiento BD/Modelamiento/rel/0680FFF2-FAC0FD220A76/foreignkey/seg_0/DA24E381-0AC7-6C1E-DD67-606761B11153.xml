@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DA24E381-0AC7-6C1E-DD67-606761B11153" containerWithKeyObject="672A8856-F15A-3983-B457-945D8381DDEB" localFKIndex="31FBAC99-E58E-CBF9-E7E1-4EDEC0E1BED7" name="Ordenes_Estado_ordenes_FK">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:54:48 UTC</createdTime>
+<generatorID>525A808C-1B9E-58B5-176A-640577EFF5C0</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<referredTableLongName>Estado_ordenes</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5FE2293E-2AC1-F5BE-ED72-773BFA8366F7</referredTableID>
+<keyObject>37CDDA32-0F4E-60FC-B7E5-8EC4015FB2B8</keyObject>
+<referredKeyID>37CDDA32-0F4E-60FC-B7E5-8EC4015FB2B8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Cod_Estado</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

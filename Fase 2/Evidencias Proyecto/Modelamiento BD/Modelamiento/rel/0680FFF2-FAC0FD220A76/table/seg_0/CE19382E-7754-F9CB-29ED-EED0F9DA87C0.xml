@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CE19382E-7754-F9CB-29ED-EED0F9DA87C0" name="Direccion_Retiro">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:54:48 UTC</createdTime>
+<generatorID>229BA168-2046-ADE1-E64F-973883302761</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cod_Retiro" id="31508B2A-199F-BB76-3267-14951552DBCC">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:54:48 UTC</createdTime>
+<generatorID>5569DAAB-BD12-283A-6EFE-244EEFAEAE86</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Direccion" id="4A39A76F-502B-100B-6D50-95F5D56B8974">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:54:48 UTC</createdTime>
+<generatorID>311F6D9E-106F-7844-B614-FA1573E63761</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Region_COD_Region" id="AF40F76E-5B14-00A8-43F0-71F8F1F3D658">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:54:48 UTC</createdTime>
+<generatorID>BF7347DF-A887-434F-2A08-07E118C4B6E3</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B322459D-694A-3BBB-13D0-7A9C9D00EC8F" referredColumn="9D98609C-C5C6-93B9-EBCD-8D8EF070DE16"/>
+</associations>
+</Column>
+<Column name="Ciudad_COD_Cuidad" id="A5E10C0F-194F-A27B-9BFD-B790E0ACC93F">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:54:48 UTC</createdTime>
+<generatorID>5185244B-7FE6-A136-9E19-D98BC39899FE</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A031036F-2E93-00C9-A42F-ED2607DAB7D8" referredColumn="9702A753-9369-8F9D-E94C-89D8F264FF18"/>
+</associations>
+</Column>
+<Column name="Comunas_COD_Comuna" id="80F605D4-254C-95A6-DC99-2E6C1203C9CC">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:54:48 UTC</createdTime>
+<generatorID>0B38F308-0F06-7568-43A1-E62ED5F0573D</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="70406BD7-48C5-99AE-9FAA-D7B8CA8D8840" referredColumn="4613A3E3-0E53-6AE5-6AE9-CFFB5A4A8603"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D423A763-B8B6-30B1-7DA1-B9186C776E96" name="Direccion_Retiro_PK">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:54:48 UTC</createdTime>
+<generatorID>FBE90C34-8988-D8D7-C1F0-7324DA4BF5DD</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31508B2A-199F-BB76-3267-14951552DBCC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="347B18FD-4FE0-0A93-4BAA-6CFAB64C8838" name="Direccion_Retiro_Region_FK">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:54:48 UTC</createdTime>
+<generatorID>E5F1CA7E-D126-6B09-6792-CF0B05D86F66</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF40F76E-5B14-00A8-43F0-71F8F1F3D658"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81222611-9776-77C6-BF8C-D70743AE8E7D" name="Direccion_Retiro_Ciudad_FK">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:54:48 UTC</createdTime>
+<generatorID>0D913092-A388-218B-2399-665F90F2FD56</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5E10C0F-194F-A27B-9BFD-B790E0ACC93F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="59E512DF-F294-37DA-5ED7-169CA527550F" name="Direccion_Retiro_Comunas_FK">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:54:48 UTC</createdTime>
+<generatorID>D34EBCEF-548D-BA3F-2F97-DA51F9541558</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80F605D4-254C-95A6-DC99-2E6C1203C9CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

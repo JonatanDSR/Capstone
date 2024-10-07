@@ -1,0 +1,202 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2E305039-E7DE-DE97-6311-4E251D0A60F5" name="Empresas">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:54:48 UTC</createdTime>
+<generatorID>21E2B80B-2C9C-A3F9-B32E-8DFFF500DD18</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RUT" id="A519DCB0-21C8-FC38-3310-89758FC585C4">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:54:48 UTC</createdTime>
+<generatorID>2D57BB25-DBDE-A489-69C8-9BC13638E80E</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Digito_Verificador" id="9EFF5288-82B7-2BE3-75B5-DD51F62FAB7A">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:54:48 UTC</createdTime>
+<generatorID>C7FB3817-19B7-924B-FB90-D4BFD83E9A5D</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_fantasia" id="9A0E3557-BDA6-784F-979F-4F1D08AB917D">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:54:48 UTC</createdTime>
+<generatorID>06C251DD-3148-EFAC-D9FE-778C0E26A730</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Razon_Social" id="8AB395C6-885D-9B2E-8888-ED2C69C66EDB">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:54:48 UTC</createdTime>
+<generatorID>3D048953-AE76-5665-44B2-564F0EC5D211</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Giro" id="D06A8E7D-1C1E-2487-610E-8C1723F90F03">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:54:48 UTC</createdTime>
+<generatorID>16B4C86C-7102-0443-80FA-FE78694D5D5E</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>90</dataTypeSize>
+<ownDataTypeParameters>90,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Direccion_comercial" id="A997F744-40DD-B227-A64F-DDC62732F1B9">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:54:48 UTC</createdTime>
+<generatorID>4E944427-18AD-8756-BE85-ABB966894BC5</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Region_COD_Region" id="E3AABADB-407F-C1A2-A566-82A90D922272">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 02:01:00 UTC</createdTime>
+<generatorID>1BCB6359-B937-33D9-DFF9-91598DD89561</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E2B6835D-229C-96FD-C398-3004516B0038" referredColumn="9D98609C-C5C6-93B9-EBCD-8D8EF070DE16"/>
+</associations>
+</Column>
+<Column name="Ciudad_COD_Cuidad" id="65A2A1BF-B087-9CEA-96E0-4351FDD2844C">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 02:01:00 UTC</createdTime>
+<generatorID>48D4EB0E-D8BC-E32B-512C-8B58396D394F</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A25FCDB3-A5D3-8397-EE36-EE006B442AAD" referredColumn="9702A753-9369-8F9D-E94C-89D8F264FF18"/>
+</associations>
+</Column>
+<Column name="Comunas_COD_Comuna" id="1FE1AB2C-2E1B-1413-E75D-21359E765740">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 02:01:00 UTC</createdTime>
+<generatorID>C4134FD4-6555-2958-8A7E-9DE60EAD8715</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3A289918-0C17-C28C-0CFD-0C42F0858F8A" referredColumn="4613A3E3-0E53-6AE5-6AE9-CFFB5A4A8603"/>
+</associations>
+</Column>
+<Column name="Giro_ID_Giro" id="2B45F6E8-3A19-B4D7-6384-7E416A2C675F">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-06 02:00:16 UTC</createdTime>
+<generatorID>3A5DF83A-4E28-BD9C-ECEF-B7E23D0D8D3A</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="93D75490-64EE-D851-02E9-AC29594EAE93" referredColumn="1AB3BC8C-3C75-779D-2196-DBE4C84F4B50"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0E7B7B26-B39D-E12F-C5ED-1CD9644E2420" name="Empresas_PK">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:54:48 UTC</createdTime>
+<generatorID>D56BA240-D1DB-E232-7FCF-E3A6D86C6B00</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A519DCB0-21C8-FC38-3310-89758FC585C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="748BB767-48E9-36E0-DDFC-06E8DE8F4E69" name="Empresas_Region_FK">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 02:01:00 UTC</createdTime>
+<generatorID>161C3321-E46F-F834-1C96-E9EE4F575590</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3AABADB-407F-C1A2-A566-82A90D922272"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C100638C-9AF9-CFDF-24FA-A48822B825D3" name="Empresas_Ciudad_FK">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 02:01:00 UTC</createdTime>
+<generatorID>C48AA82D-7246-CECC-6BC4-FF54ECD7B044</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65A2A1BF-B087-9CEA-96E0-4351FDD2844C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="09642906-576F-72B8-2D90-7D49F5C7BA5D" name="Empresas_Comunas_FK">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 02:01:00 UTC</createdTime>
+<generatorID>498E6F01-3083-2252-096E-6FC3F4F9B45D</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FE1AB2C-2E1B-1413-E75D-21359E765740"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C3B04BDC-8117-C6C5-300D-96C7A53709DB" name="Empresas_Giro_FK">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-06 02:00:16 UTC</createdTime>
+<generatorID>0CFA9BE3-4B83-025E-7469-551CBFCDCCCE</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B45F6E8-3A19-B4D7-6384-7E416A2C675F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="93D75490-64EE-D851-02E9-AC29594EAE93" containerWithKeyObject="2E305039-E7DE-DE97-6311-4E251D0A60F5" localFKIndex="C3B04BDC-8117-C6C5-300D-96C7A53709DB" name="Empresas_Giro_FK">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-06 02:00:16 UTC</createdTime>
+<generatorID>0CFA9BE3-4B83-025E-7469-551CBFCDCCCE</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<referredTableLongName>Giro</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C3C1CBAE-4561-2E55-2E57-647E7C89CECA</referredTableID>
+<keyObject>B4F97C81-D616-CEBB-839A-66D93FE986E1</keyObject>
+<referredKeyID>B4F97C81-D616-CEBB-839A-66D93FE986E1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Giro</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

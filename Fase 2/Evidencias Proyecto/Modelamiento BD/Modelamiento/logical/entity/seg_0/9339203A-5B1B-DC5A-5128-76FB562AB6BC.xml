@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9339203A-5B1B-DC5A-5128-76FB562AB6BC" name="Cod_Despacho">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:40:01 UTC</createdTime>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<engineerTo>
+<item key="0680FFF2-F0BE-AE31-FAAC-FAC0FD220A76" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Cod_Despacho" id="113E7A70-0A98-B373-5372-C05F21E9D4A5">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:40:56 UTC</createdTime>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<engineerTo>
+<item key="0680FFF2-F0BE-AE31-FAAC-FAC0FD220A76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Direccion" id="21FD6E10-D0E6-165B-773B-0D3DBDF5EE73">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:41:32 UTC</createdTime>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<engineerTo>
+<item key="0680FFF2-F0BE-AE31-FAAC-FAC0FD220A76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_Region" id="EE6463D4-3690-05E2-8EA2-82DA92AAEB4E">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:43:24 UTC</createdTime>
+<generatorID>0EE68D1C-1642-0568-D56D-5CA805195BE0</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<engineerTo>
+<item key="0680FFF2-F0BE-AE31-FAAC-FAC0FD220A76" value="true"/>
+</engineerTo>
+<referedAttribute>70A820F5-F234-7841-5B25-E9FF9ADF436A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_Cuidad" id="25D738D7-1D79-6438-4669-15016F43C9CC">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:43:31 UTC</createdTime>
+<generatorID>32B923BC-23A3-C09A-942D-F2CA3CC21ECE</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<engineerTo>
+<item key="0680FFF2-F0BE-AE31-FAAC-FAC0FD220A76" value="true"/>
+</engineerTo>
+<referedAttribute>EDEB3BF5-2AAE-5DFB-4BD3-D6125DE668F9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_Comuna" id="C5BC30BB-6304-CA1C-DB02-05EEEB75C64D">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:43:39 UTC</createdTime>
+<generatorID>35344239-445E-74A4-90C5-268619C60E63</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<engineerTo>
+<item key="0680FFF2-F0BE-AE31-FAAC-FAC0FD220A76" value="true"/>
+</engineerTo>
+<referedAttribute>E9669F96-08C0-C071-9521-CF3B42D172E1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6AD4A542-1A43-73BF-7AB2-C1BA4D464243" name="Cod_Despacho PK">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:41:30 UTC</createdTime>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="0680FFF2-F0BE-AE31-FAAC-FAC0FD220A76" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>113E7A70-0A98-B373-5372-C05F21E9D4A5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

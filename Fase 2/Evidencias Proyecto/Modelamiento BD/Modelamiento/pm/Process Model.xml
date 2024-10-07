@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="27D8B9A0-CC88-4889-C7E6-73AC4A15FBB2">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 00:40:14 UTC</createdTime>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

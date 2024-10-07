@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="15F9E2C3-A6BF-CE43-1667-CED028C4920C" containerWithKeyObject="672A8856-F15A-3983-B457-945D8381DDEB" localFKIndex="9870FC39-F6FE-7C40-4B16-004338A9F340" name="Ordenes_Cod_Despacho_FK">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 01:54:48 UTC</createdTime>
+<generatorID>E7294C3C-0ABA-0CD2-8A74-0CD1F77E8878</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<referredTableLongName>Cod_Despacho</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D4E5E731-37CC-C4EC-0D4B-B7DE73F3B741</referredTableID>
+<keyObject>C9961CAC-B6D6-DB58-505E-6B58B2384E49</keyObject>
+<referredKeyID>C9961CAC-B6D6-DB58-505E-6B58B2384E49</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Cod_Despacho</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="24976C0C-F7D7-246A-9AB6-4193C4550606" containerWithKeyObject="672A8856-F15A-3983-B457-945D8381DDEB" localFKIndex="B4413712-E60D-EFF6-BC4D-D24654B0CDD6" name="Ordenes_Direccion_Retiro_FKv1">
+<createdBy>jsandoval</createdBy>
+<createdTime>2024-10-02 02:01:00 UTC</createdTime>
+<generatorID>B97DD6EB-1F3A-0549-2EE2-A6E1F8AF34F7</generatorID>
+<ownerDesignName>Modelamiento</ownerDesignName>
+<referredTableLongName>Direccion_Retiro</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CE19382E-7754-F9CB-29ED-EED0F9DA87C0</referredTableID>
+<keyObject>D423A763-B8B6-30B1-7DA1-B9186C776E96</keyObject>
+<referredKeyID>D423A763-B8B6-30B1-7DA1-B9186C776E96</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Cod_Retiro</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
