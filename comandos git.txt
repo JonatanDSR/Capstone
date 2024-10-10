@@ -1,0 +1,23 @@
+
+
+
+Comandos GITHUB
+
+git status   / ve el estado
+git diff / ve las diferencias
+
+
+
+git add . / añade los archivos que tienen cambios.
+git commit - m "su subio el archivo xxxx" / se deja el comentario.
+
+git push / Sube los cambios desde el folder local hacia la nube de git
+
+
+git fetch / se trae los cambios de la nube al folder local.
+
+git push  / descarga todo desde la nube git hacia folder local.
+
+
+
+
