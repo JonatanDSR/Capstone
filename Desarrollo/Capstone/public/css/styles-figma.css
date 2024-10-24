@@ -1,0 +1,167 @@
+.thumbnail {
+    background-color: #dbebfd;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .thumbnail .div {
+    background-color: var(--primary-50);
+    width: 1600px;
+    height: 960px;
+    position: relative;
+  }
+  
+  .thumbnail .overlap-group {
+    position: absolute;
+    width: 1045px;
+    height: 960px;
+    top: 0;
+    left: 555px;
+  }
+  
+  .thumbnail .element {
+    position: absolute;
+    width: 435px;
+    height: 960px;
+    top: 0;
+    left: 610px;
+  }
+  
+  .thumbnail .element-px {
+    position: absolute;
+    width: 798px;
+    height: 918px;
+    top: 42px;
+    left: 0;
+  }
+  
+  .thumbnail .group {
+    position: absolute;
+    width: 455px;
+    height: 460px;
+    top: 294px;
+    left: 92px;
+  }
+  
+  .thumbnail .group-2 {
+    position: absolute;
+    width: 457px;
+    height: 310px;
+    top: 0;
+    left: 0;
+  }
+  
+  .thumbnail .saas-landing-page {
+    position: absolute;
+    width: 455px;
+    top: 0;
+    left: 0;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--primary-900);
+    font-size: 68px;
+    letter-spacing: 0;
+    line-height: 79.9px;
+  }
+  
+  .thumbnail .div-wrapper {
+    position: absolute;
+    width: 436px;
+    height: 53px;
+    top: 257px;
+    left: 0;
+  }
+  
+  .thumbnail .text-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--primary-900);
+    font-size: 45.5px;
+    letter-spacing: -1.59px;
+    line-height: 53.5px;
+    white-space: nowrap;
+  }
+  
+  .thumbnail .frame {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 18px 36px;
+    position: absolute;
+    top: 369px;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 100px;
+    box-shadow: 0px 64px 95.85px #3a3a3a33;
+  }
+  
+  .thumbnail .figma-wrapper {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 27.56px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .thumbnail .figma {
+    position: relative;
+    width: 55.11px;
+    height: 55.11px;
+  }
+  
+  .thumbnail .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: 32.9px;
+    white-space: nowrap;
+  }
+  
+  .thumbnail .logo {
+    display: flex;
+    width: 326px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 17.07px;
+    position: absolute;
+    top: 162px;
+    left: 92px;
+  }
+  
+  .thumbnail .logo-2 {
+    position: relative;
+    width: 327.22px;
+    height: 58px;
+    margin-right: -1.61px;
+  }
+  
+  .thumbnail .logo-icon {
+    position: absolute;
+    width: 63px;
+    height: 49px;
+    top: 4px;
+    left: 0;
+  }
+  
+  .thumbnail .text-wrapper-3 {
+    position: absolute;
+    top: 0;
+    left: 80px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--primary-900);
+    font-size: 47.8px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
