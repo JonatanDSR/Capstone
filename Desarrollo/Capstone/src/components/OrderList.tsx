@@ -1,7 +1,7 @@
 import React from 'react';
 import { useAuthStore } from '../store/auth';
 import { useOrdersStore } from '../store/orders';
-import { Package, Truck, CheckCircle, XCircle, Inbox, Trash2, XSquare, Building2 } from 'lucide-react';
+import { Package, Truck, CheckCircle, XCircle, Inbox, Trash2, XSquare, Building2, Phone, UserCircle } from 'lucide-react';
 import { Button } from './ui/Button';
 import type { OrderStatus, User } from '../types';
 
@@ -89,14 +89,29 @@ export function OrderList() {
     if (orderUser.role !== 'BUSINESS' || !orderUser.businessName) return null;
     
     return (
-      <div className="mt-2 flex items-start space-x-2 text-sm text-gray-500">
-        <Building2 className="h-4 w-4 mt-0.5 flex-shrink-0" />
-        <div>
-          <p className="font-medium">{orderUser.businessName}</p>
-          {orderUser.businessAddress && (
-            <p className="text-gray-400">{orderUser.businessAddress}</p>
-          )}
+      <div className="mt-2 space-y-2">
+        <div className="flex items-start space-x-2 text-sm text-gray-500">
+          <Building2 className="h-4 w-4 mt-0.5 flex-shrink-0" />
+          <div>
+            <p className="font-medium">{orderUser.businessName}</p>
+            {orderUser.businessAddress && (
+              <p className="text-gray-400">{orderUser.businessAddress}</p>
+            )}
+          </div>
         </div>
+        
+        {orderUser.businessRepresentative && (
+          <div className="space-y-1">
+            <div className="flex items-center space-x-2 text-sm text-gray-500">
+              <UserCircle className="h-4 w-4 flex-shrink-0" />
+              <span>{orderUser.businessRepresentative.name} - {orderUser.businessRepresentative.position}</span>
+            </div>
+            <div className="flex items-center space-x-2 text-sm text-gray-500">
+              <Phone className="h-4 w-4 flex-shrink-0" />
+              <span>{orderUser.businessRepresentative.phone}</span>
+            </div>
+          </div>
+        )}
       </div>
     );
   };

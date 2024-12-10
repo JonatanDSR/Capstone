@@ -1,5 +1,11 @@
 export type UserRole = 'INDIVIDUAL' | 'BUSINESS' | 'ADMIN';
 
+export type BusinessRepresentative = {
+  name: string;
+  phone: string;
+  position: string;
+};
+
 export type User = {
   id: string;
   email: string;
@@ -9,6 +15,7 @@ export type User = {
   password: string;
   businessName?: string;
   businessAddress?: string;
+  businessRepresentative?: BusinessRepresentative;
 };
 
 export type OrderStatus = 'RECEIVED' | 'PENDING' | 'IN_PROGRESS' | 'COMPLETED' | 'REJECTED';
@@ -35,6 +42,7 @@ export type ProfileFormData = {
   rut: string;
   businessName?: string;
   businessAddress?: string;
+  businessRepresentative?: BusinessRepresentative;
 };
 
 export type PasswordChangeData = {
