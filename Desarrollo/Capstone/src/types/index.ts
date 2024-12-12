@@ -1,3 +1,6 @@
+import { z } from 'zod';
+import { registerSchema } from '../schemas/register';
+
 export type UserRole = 'INDIVIDUAL' | 'BUSINESS' | 'ADMIN';
 
 export type BusinessRepresentative = {
@@ -12,6 +15,7 @@ export type User = {
   name: string;
   role: UserRole;
   rut: string;
+  phone: string;
   password: string;
   businessName?: string;
   businessAddress?: string;
@@ -40,6 +44,7 @@ export type ProfileFormData = {
   name: string;
   email: string;
   rut: string;
+  phone: string;
   businessName?: string;
   businessAddress?: string;
   businessRepresentative?: BusinessRepresentative;
@@ -50,3 +55,5 @@ export type PasswordChangeData = {
   newPassword: string;
   confirmPassword: string;
 };
+
+export type RegisterFormData = z.infer<typeof registerSchema>;
